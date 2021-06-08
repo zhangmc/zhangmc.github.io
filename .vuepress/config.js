@@ -1,7 +1,7 @@
 module.exports = {
   "title": "blog",
   "description": "note",
-  "dest": "dist",
+  "dest": ".vuepress/dist",
   "head": [
     [
       "link",
