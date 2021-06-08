@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-git push -f https://github.com/zhangmc/zhangmc.github.io.git main:gh-pages
+git push -f https://github.com/zhangmc/zhangmc.github.io.git gh-pages
 
 cd -
