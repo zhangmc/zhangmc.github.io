@@ -30,4 +30,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: master
-          FOLDER: .vuepress/dist
+          FOLDER: zhangmc.github.io/.vuepress/dist
