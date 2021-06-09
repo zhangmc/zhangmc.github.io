@@ -20,7 +20,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: yarn add vuepress&yarn build
+        run: yarn add vuepress&yarn add vuepress-theme-reco&yarn build
 
       # 部署到 GitHub Pages
       - name: Deploy
