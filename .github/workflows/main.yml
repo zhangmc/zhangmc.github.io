@@ -20,13 +20,11 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: 
-          yarn add vuepress
-          yarn build
+        run: yarn add vuepress&yarn build
 
       # 部署到 GitHub Pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@releases/v2
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: master
