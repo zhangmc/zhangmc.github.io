@@ -31,6 +31,7 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
+	  /**
       {
         "text": "Docs",
         "icon": "reco-message",
@@ -41,6 +42,7 @@ module.exports = {
           }
         ]
       },
+	  **/
       {
         "text": "Contact",
         "icon": "reco-message",
