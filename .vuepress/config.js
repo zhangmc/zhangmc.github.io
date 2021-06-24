@@ -2,11 +2,6 @@ module.exports = {
   "title": "",
   "description": "",
   "dest": ".vuepress/dist",
-  locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
   "head": [
     [
       "link",
