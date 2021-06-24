@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: ZMC's Blog
+tagline: 关山难越，谁悲失路之人？
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

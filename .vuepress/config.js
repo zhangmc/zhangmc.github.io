@@ -1,7 +1,12 @@
 module.exports = {
-  "title": "blog",
-  "description": "note",
+  "title": "",
+  "description": "",
   "dest": ".vuepress/dist",
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   "head": [
     [
       "link",
@@ -47,7 +52,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/zhangmc",
             "icon": "reco-github"
           }
         ]
@@ -72,6 +77,7 @@ module.exports = {
         "text": "Tag"
       }
     },
+	/**
     "friendLink": [
       {
         "title": "午后南杂",
@@ -86,6 +92,7 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
+	**/
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
